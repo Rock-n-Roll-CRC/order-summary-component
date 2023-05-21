@@ -1,0 +1,103 @@
+.order-summary-component {
+  height: 567px;
+  width: 327px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* ORDER SUMMARY IMAGE */
+.order-summary-image {
+  height: 160px;
+  width: 100%;
+}
+
+.order-summary-image img {
+  height: 100%;
+  width: 100%;
+}
+
+/* ORDER SUMMARY INFO */
+.order-summary-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 407px;
+  width: 100%;
+}
+
+.order-summary-info h2,
+.order-summary-description {
+  text-align: center;
+}
+
+.order-summary-info h2 {
+  font: 900 22px "Red Hat Display", sans-serif;
+  padding-top: 32px;
+  margin-bottom: 17px;
+}
+
+.order-summary-description {
+  color: #7380a6;
+  font: 500 15px "Red Hat Display", sans-serif;
+  line-height: 25px;
+  padding: 0 40px;
+  margin-bottom: 23px;
+}
+
+.order-summary-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 81px;
+  width: 279px;
+  background-color: #f5f7ff;
+  border-radius: 13px;
+  padding: 0 16px;
+  margin-bottom: 24px;
+}
+
+.order-summary-plan-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.order-summary-plan-name {
+  font: 900 14px "Red Hat Display", sans-serif;
+  margin-bottom: 4px;
+}
+
+.order-summary-plan-price {
+  color: #7380a6;
+  font: 500 14px "Red Hat Display", sans-serif;
+  letter-spacing: 0.3px;
+}
+
+.order-summary-plan button {
+  color: #3829e0;
+  background-color: #f5f7ff;
+  font: 900 13px "Red Hat Display", sans-serif;
+  text-decoration: underline;
+  padding-top: 1px;
+  cursor: pointer;
+}
+
+.order-summary-proceed {
+  color: #fff;
+  background-color: #3829e0;
+  font: 700 14px "Red Hat Display", sans-serif;
+  letter-spacing: 0.8px;
+  box-shadow: 0 10px 10px #3829e05e;
+  border-radius: 11px;
+  padding: 16px 64px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.order-summary-cancel {
+  color: #7380a6;
+  background-color: #fff;
+  font: 900 15px "Red Hat Display", sans-serif;
+  cursor: pointer;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An order summary component for the music service, consisting of an image, heading, description, plan."
+    />
+    <title>Order summary component</title>
+
+    <link rel="stylesheet" href="./assets/styles/general.css" />
+    <link rel="stylesheet" href="./assets/styles/order-summary-component.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="visually-hidden">Order summary component</h1>
+    </header>
+
+    <main class="order-summary-component">
+      <div class="order-summary-image">
+        <img
+          src="./assets/images/illustration-hero.svg"
+          alt="A young white woman in black headphones, listening to music in a green t-shirt at night."
+        />
+      </div>
+
+      <div class="order-summary-info">
+        <h2>Order Summary</h2>
+        <p class="order-summary-description">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="order-summary-plan">
+          <div class="order-summary-plan-info">
+            <img
+              src="./assets/images/icon-music.svg"
+              alt="Music note."
+              class="order-summary-plan-image"
+              height="48"
+              width="48"
+            />
+            <div class="order-summary-plan-description">
+              <p class="order-summary-plan-name">Annual Plan</p>
+              <p class="order-summary-plan-price">$59.99/year</p>
+            </div>
+          </div>
+          <button>Change</button>
+        </div>
+        <button class="order-summary-proceed">Proceed to Payment</button>
+        <button class="order-summary-cancel">Cancel Order</button>
+      </div>
+    </main>
+  </body>
+</html>
