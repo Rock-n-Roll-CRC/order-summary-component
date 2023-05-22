@@ -83,16 +83,25 @@
   cursor: pointer;
 }
 
+.order-summary-plan button:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
 .order-summary-proceed {
   color: #fff;
   background-color: #3829e0;
   font: 700 14px "Red Hat Display", sans-serif;
   letter-spacing: 0.8px;
-  box-shadow: 0 10px 10px #3829e060;
+  box-shadow: 0 15px 20px #3829e03f;
   border-radius: 11px;
   padding: 16px 64px;
   margin-bottom: 24px;
   cursor: pointer;
+}
+
+.order-summary-proceed:hover {
+  background-color: #766cf1;
 }
 
 .order-summary-cancel {
@@ -100,4 +109,73 @@
   background-color: #fff;
   font: 900 15px "Red Hat Display", sans-serif;
   cursor: pointer;
+}
+
+.order-summary-cancel:hover {
+  color: hsl(223deg 47% 23%);
+}
+
+@media all and (min-width: 550px) {
+  .order-summary-component {
+    height: 629px;
+    width: 406px;
+    border-radius: 18px;
+  }
+
+  .order-summary-image {
+    height: 199px;
+  }
+
+  .order-summary-info h2 {
+    font: 900 25px "Red Hat Display", sans-serif;
+    padding-top: 41px;
+    margin-bottom: 17px;
+  }
+
+  .order-summary-description {
+    line-height: 23px;
+    padding: 0 65px;
+    margin-bottom: 18px;
+  }
+
+  .order-summary-plan {
+    height: 89px;
+    width: 320px;
+    padding: 0 21px;
+    margin-bottom: 28px;
+  }
+
+  .order-summary-plan-info {
+    gap: 19px;
+  }
+
+  .order-summary-plan-image {
+    height: 43px;
+    width: 43px;
+    margin-left: 1px;
+  }
+
+  .order-summary-plan-name {
+    word-spacing: 1.5px;
+    margin-bottom: 6px;
+  }
+
+  .order-summary-plan-price {
+    padding-bottom: 2px;
+  }
+
+  .order-summary-plan button {
+    padding-top: 0;
+  }
+
+  .order-summary-proceed {
+    font: 700 12px "Red Hat Display", sans-serif;
+    letter-spacing: 0.8px;
+    padding: 14.5px 94.5px;
+    margin-bottom: 28px;
+  }
+
+  .order-summary-cancel {
+    font: 900 14px "Red Hat Display", sans-serif;
+  }
 }
